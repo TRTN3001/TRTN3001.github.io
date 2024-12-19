@@ -1,0 +1,15 @@
+#status {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: large;
+    color: black;
+    align-self: center;
+    width: 100%;
+}
+
+button {
+    font-family: monospace;
+    font-size: smaller;
+    color: brown;
+    align-self: center;
+    width: 100%;
+}
