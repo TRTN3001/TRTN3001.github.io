@@ -24,7 +24,9 @@ function showResults() {
     name +
     ', claimed "' +
     q1 +
-    ', I am gay." You outed ' +
+    ", I am " +
+    truval +
+    '." You outed ' +
     q2 +
     ", and you saw " +
     q3 +
