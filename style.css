@@ -1,15 +1,46 @@
 #status {
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: large;
-    color: black;
-    align-self: center;
-    width: 100%;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: large;
+  color: black;
+  align-self: center;
+  width: 100%;
+  text-align: center;
+}
+
+#results {
+  text-align: center;
 }
 
 button {
-    font-family: monospace;
-    font-size: smaller;
-    color: brown;
-    align-self: center;
-    width: 100%;
+  font-family: monospace;
+  font-size: smaller;
+  color: brown;
+  align-self: center;
+  width: 100%;
+}
+
+#leftside {
+  float: left;
+  width: 50%;
+}
+
+#rightside {
+  float: right;
+  width: 50%;
+}
+
+#triangle {
+  width: 50%;
+  margin: auto;
+  display: block;
+}
+
+#leftside input {
+  align-self: center;
+  width: 100%;
+}
+
+h1 {
+  text-align: center;
+  width: 100%;
 }

@@ -1,18 +1,39 @@
 <!DOCTYPE html>
 <html lang="en-US">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="author" content="doctor inteli gente" />
+    <meta name="description" content="if you are reading this you are gay" />
+    <title>mr gay</title>
+    <link rel="icon" type="image/png" href="favicon-32x32.png" sizes="32x32" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+  </head>
 
-<head>
-  <meta charset="utf-8" />
-  <meta name="author" content="doctor inteli gente" />
-  <meta name="description"
-    content="if you are reading this you are gay" />
-  <title>mr gay</title>
-  <link rel="stylesheet" href="style.css" />
-  <script src="script.js" defer></script>
-</head>
-
-<body>
-    <p id="status">You are: pending...</p>
-    <button id="gaybutton" onclick="turnGay()">Run gay test!</button>
-</body>
+  <body>
+    <h1 id="header">gay test (certified accurate 2025)</h1>
+    <input type="checkbox" onclick="swapTest()" id="testtype" />
+    <p id="checkbox" style="display: inline-block">
+      alternatively, for a lesbian test, check this box.
+    </p>
+    <br />
+    <div id="leftside">
+      <p>name please</p>
+      <input id="name" />
+      <p id="p1">1: are you gay (yes or no)</p>
+      <input id="q1" />
+      <p id="p2">2: name 5 gay people</p>
+      <input id="q2" />
+      <p>3: how many triangles</p>
+      <input id="q3" /><br />
+      <img id="triangle" src="triagnle.webp" />
+      <br />
+      <button id="gaybutton" onclick="showResults()">Run gay test!</button>
+      <p id="results">Results summary unavailable.</p>
+      <p id="status">You are: pending...</p>
+    </div>
+    <div id="rightside">
+      <img id="flag" src="gay.gif" style="width: 100%" />
+    </div>
+  </body>
 </html>
